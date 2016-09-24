@@ -1,0 +1,34 @@
+@media only screen and (max-width:990px) {
+  .centering {
+    min-width: 250px;
+  }
+  .main-icon {
+    text-align: center;
+    margin: 0;
+  }
+  .envelope-container {
+    margin: 0 auto;
+  }
+  .main-form:before {
+    display: none;
+  }
+  .main-form:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    top: -16px;
+    height: 0;
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 18px solid #EDEFF0;
+  }
+  .icon-description {
+    margin-bottom: 35px;
+  }
+  .icon-description-text {
+    display: inline-block;
+  }
+}
